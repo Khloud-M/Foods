@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+  color: #333;
+  font-family: "Lato", sans-serif;
+}
+a
+{
+  color: unset;
+  text-decoration: none;
+  /*بيلغي أي لون */
+}
+header {
+    height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(0, 0, 0, 0.7)),
+    url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    height: 100px;
+    margin-top: 20px;
+}
+.main_nav
+{
+    list-style: none;
+}
+.main_nav li 
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+.main_nav li a 
+{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+
+}
+.main_nav li a:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+.hero-box
+{
+  
+  position: absolute;
+  top: 40%;
+  left: 20%;
+ 
+}
+
+h1{
+  color: white;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-size: 2rem;
+}
+
+.btn
+{
+  border: solid 1px orange;
+  border-radius: 5px;
+  color: orange;
+  margin-left: 15px;
+  padding: 7px 15px;
+
+}
+.btn:hover
+{
+color: white;
+background-color: orange;
+}
+section
+{
+  padding: 40px 0;
+}
+h2{
+ 
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+h2::after
+{
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 5px;
+  margin: 20px auto ;
+  background-color: orange;
+  border-radius: 3px;
+}
+.Features-text
+{
+  width: 60%;
+  margin: auto;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.bedo {
+  text-align: center;
+}
+
+.bedo i 
+{
+  font-size: 35px;
+  color: orange;
+  margin-bottom: 20px;
+}
+.bedo h3
+{
+  margin-bottom: 20px;
+
+}
+.bedo p
+{
+  text-align: justify;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.678);
+}
+#meals .row
+{
+  margin: 0;
+}
+#meals
+{
+  padding: 0;
+}
+.meal
+{
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+.meal img
+{
+  width: 100%;
+  margin-bottom: -5px;
+  opacity: 0.6;
+  transition: 2s;
+}
+.meal img:hover
+{
+  opacity: 1;
+  transform: scale(1.2);
+}
+#works
+{
+  background-color: #ddd;
+}
+.iphone
+{
+  width: 40%;
+}
+.work:first-child
+{
+  text-align: right;
+  padding-right: 2%;
+}
+.work:nth-child(2)
+{
+  text-align: left;
+  padding-left: 2%;
+  padding-top: 50px;
+}
+.step
+{
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.step span
+{
+  margin-right: 20px;
+  border: solid 2px orange;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+}
+.work:nth-child(2) img
+{
+  height: 50px;
+}
+
+.work:nth-child(2) a 
+{
+  margin-right: 15px;
+}
+.city img
+{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.city h3
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.city-info i 
+{
+  color: orange;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.city-info a 
+{
+  color: orange;
+  text-decoration: underline;
+}
+#testimonials
+{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+   url(../images/back-customers.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-attachment: fixed;
+}
+#testimonials i 
+{
+  color: orange;
+  font-size: 30px;
+  margin-left: -20px;
+}
+#testimonials p 
+{
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-style: italic;
+}
+#testimonials img 
+{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  vertical-align: middle;
+}
+#pricing {
+  /*background-color: #ffebcd;*/
+  background-color: #ddd;
+}
+.inner
+{
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+}
+.inner h3 
+{
+  margin-bottom: 10px;
+
+}
+.offer-header , 
+.offer-body
+{
+  border-bottom:  solid orange 1px;
+  padding: 2%;
+}
+.inner .price
+{
+  color: orange;
+  margin-bottom: 15px;
+} 
+.inner .price span
+{
+  font-weight: bold;
+  font-size: 1.5rem;
+} 
+.offer-body
+{
+  padding: 2%;
+}
+.prop
+{
+  display: flex;
+  margin-bottom: 15px;
+}
+.prop i 
+{
+  margin-right: 15px;
+  color: orange;
+}
+.offer-footer
+{
+  padding: 5%;
+  text-align: center;
+}
+.offer-footer a 
+{
+  color: orange;
+  border: 1px solid orange;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+.offer-footer a:hover
+{
+  background-color: orange;
+  color: white;
+}
+label
+{
+  color: orange;
+  font-size: 18px;
+}
+input[type='text'] 
+, input[type='email']
+
+, select , textarea
+{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 2%;
+  margin-bottom: 15px;
+}
+
+input[type='checked']
+{
+  margin-bottom: 15px;
+}
+button
+{
+  color: orange;
+  padding: 12px 15px;
+  background-color: white;
+  border: solid 1px orange;
+  border-radius: 5px;
+
+}
+button:hover
+{
+  color: white;
+  background-color: orange;
+}
+footer
+{
+  background-color: #333;
+  padding: 50px 100px;
+  color: #fff;
+
+}
+footer p 
+{
+color: #fff;
+text-align: center;
+margin-top: 30px;
+}
+.footer_nav , .social_nav
+{
+    list-style: none;
+}
+.footer_nav li  , .social_nav li
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer_nav li a , .social_nav li a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer_nav li a:hover , .social_nav li a:hover
+{
+  color: orange;
+  text-decoration: underline;
+} 
+
